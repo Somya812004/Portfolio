@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contact - Responsive portfolio website - Bedimcode</title>
+</head>
+
+<body class="theme-contact">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav>
+            <div class="left">
+                <span class="logo">Somya's <span class="highlight">PortFolio</span></span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" style="color: inherit; text-decoration: none;">Home</a></li>
+                    <li><a href="about.html" style="color: inherit; text-decoration: none;">About</a></li>
+                    <li><a href="skills.html" style="color: inherit; text-decoration: none;">Skills</a></li>
+                    <li><a href="projects.html" style="color: inherit; text-decoration: none;">Projects</a></li>
+                    <li><a href="contact.html" style="color: inherit; text-decoration: none;">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" style="padding: 100px 50px;">
+            <h1 style="font-size: 3rem; text-align: center; margin-bottom: 50px;">Contact Me</h1>
+
+            <div
+                style="display: flex; justify-content: space-between; max-width: 1000px; margin: 0 auto; gap: 50px; flex-wrap: wrap;">
+
+                <!-- Left Side: Socials -->
+                <div style="flex: 1; min-width: 300px;">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Connect With Me</h3>
+                    <p style="margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6;">I'm currently available for
+                        freelance work and open to new opportunities. Let's connect!</p>
+
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <a href="https://www.linkedin.com/in/somya-sagarika-kar" target="_blank" class="icon-3d"
+                            style="color: white; text-decoration: none; display: flex; align-items: center; gap: 10px; font-size: 1.2rem;">
+                            <i class="ri-linkedin-box-fill" style="font-size: 1.5rem;"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/somya812004" target="_blank" class="icon-3d"
+                            style="color: white; text-decoration: none; display: flex; align-items: center; gap: 10px; font-size: 1.2rem;">
+                            <i class="ri-github-fill" style="font-size: 1.5rem;"></i> GitHub
+                        </a>
+                        <a href="mailto:somyaskar17@gmail.com" class="icon-3d"
+                            style="color: white; text-decoration: none; display: flex; align-items: center; gap: 10px; font-size: 1.2rem;">
+                            <i class="ri-mail-fill" style="font-size: 1.5rem;"></i> Email
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Contact Form -->
+                <div style="flex: 1; min-width: 300px;">
+                    <form class="card-3d" action="mailto:somyaskar17@gmail.com" method="POST" enctype="text/plain"
+                        style="display: flex; flex-direction: column; gap: 20px; background: #121826; padding: 30px; border-radius: 10px; border: 2px solid #5576a0;">
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Name</label>
+                            <input type="text" name="name" required placeholder="Enter your name"
+                                style="width: 100%; padding: 12px; border-radius: 5px; border: none; font-family: inherit;">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Email</label>
+                            <input type="email" name="email" required placeholder="Enter your email"
+                                style="width: 100%; padding: 12px; border-radius: 5px; border: none; font-family: inherit;">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Message</label>
+                            <textarea name="message" required placeholder="Write your message here" rows="5"
+                                style="width: 100%; padding: 12px; border-radius: 5px; border: none; font-family: inherit; resize: vertical;"></textarea>
+                        </div>
+                        <button class="btn-3d" type="submit"
+                            style="padding: 15px; background-color: #ff2a5f; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: 600; font-family: inherit;">Send
+                            Message <i class="ri-send-plane-fill"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <p class="footer-text">
+            <span>Created with the help of AI</span>
+            <i class="ri-robot-2-fill"></i>
+        </p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+
+
+    <!--=============== CONTACT JS ===============-->
+    <script src="assets/js/contact.js"></script>
+</body>
+
+</html>
